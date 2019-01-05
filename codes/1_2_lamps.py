@@ -24,7 +24,7 @@ def reset_lamps(lamp):
     for i in lamp:
         GPIO.output(i, False)
 
-# mode = int in {'정지': 0, '주의': 1, '좌회전': 2, '직진': 3}
+# mode = int in {'stopped': 0, 'warning': 1, 'left': 2, 'straight': 3}
 # def set_color(mode, lamp):
 #     reset_lamps(lamp)
 #     if mode == 0:
