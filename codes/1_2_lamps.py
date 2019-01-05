@@ -90,4 +90,5 @@ time.sleep(3)
 
 reset_all(lamps)
 
-raw_input('press enter to exit program') GPIO.cleanup()
+raw_input('press enter to exit program')
+GPIO.cleanup()
