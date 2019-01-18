@@ -1,4 +1,4 @@
-# 파이썬 스터디 1차시
+# 부트 SW 스터디 1차시
 
 기간: 2019. 01. 07 ~ 2019. 01. 28
 장소: 건국대학교 신공학관 1203호
@@ -8,50 +8,51 @@
 ## 목차
 
 - [파이썬 스터디 1차시](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8A%A4%ED%84%B0%EB%94%94-1%EC%B0%A8%EC%8B%9C)
-    - [목차](#%EB%AA%A9%EC%B0%A8)
-    - [(홍보) 부트사차원 웹앱을 통한 프로젝트 생성](#%ED%99%8D%EB%B3%B4-%EB%B6%80%ED%8A%B8%EC%82%AC%EC%B0%A8%EC%9B%90-%EC%9B%B9%EC%95%B1%EC%9D%84-%ED%86%B5%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
-    - [프로젝트 진행방향 소개](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89%EB%B0%A9%ED%96%A5-%EC%86%8C%EA%B0%9C)
-        - [스터디성 프로젝트에 관한 정보](#%EC%8A%A4%ED%84%B0%EB%94%94%EC%84%B1-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
-        - [작품제작에 관한 정보](#%EC%9E%91%ED%92%88%EC%A0%9C%EC%9E%91%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
-        - [세미나/수업에 관한 정보](#%EC%84%B8%EB%AF%B8%EB%82%98%EC%88%98%EC%97%85%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
-        - [스터디 스타일](#%EC%8A%A4%ED%84%B0%EB%94%94-%EC%8A%A4%ED%83%80%EC%9D%BC)
-        - [예습 / 복습](#%EC%98%88%EC%8A%B5-%EB%B3%B5%EC%8A%B5)
-        - [스터디 인원 확정 및 부원 가입](#%EC%8A%A4%ED%84%B0%EB%94%94-%EC%9D%B8%EC%9B%90-%ED%99%95%EC%A0%95-%EB%B0%8F-%EB%B6%80%EC%9B%90-%EA%B0%80%EC%9E%85)
-    - [파이썬 기초](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88)
-        - [튜터가 프로그래밍을 공부하는 방법](#%ED%8A%9C%ED%84%B0%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
-        - [파이썬 철학](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%B2%A0%ED%95%99)
-            - [파이썬의 선 (The Zen of Python)](#%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98-%EC%84%A0-the-zen-of-python)
-            - [다른 언어 철학: 자바](#%EB%8B%A4%EB%A5%B8-%EC%96%B8%EC%96%B4-%EC%B2%A0%ED%95%99-%EC%9E%90%EB%B0%94)
-        - [헬로 월드 출력해보기](#%ED%97%AC%EB%A1%9C-%EC%9B%94%EB%93%9C-%EC%B6%9C%EB%A0%A5%ED%95%B4%EB%B3%B4%EA%B8%B0)
-            - [Python 설치](#python-%EC%84%A4%EC%B9%98)
-            - [파이썬, C 언어 헬로월드 비교](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-c-%EC%96%B8%EC%96%B4-%ED%97%AC%EB%A1%9C%EC%9B%94%EB%93%9C-%EB%B9%84%EA%B5%90)
-        - [파이썬의 간략한 특징](#%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98-%EA%B0%84%EB%9E%B5%ED%95%9C-%ED%8A%B9%EC%A7%95)
-        - [좋은 이름을 짓는 방법](#%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%A7%93%EB%8A%94-%EB%B0%A9%EB%B2%95)
-        - [파이썬 좀더 알아보기](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A2%80%EB%8D%94-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
-            - [Number (숫자 자료형)](#number-%EC%88%AB%EC%9E%90-%EC%9E%90%EB%A3%8C%ED%98%95)
-            - [String (문자열 자료형)](#string-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A3%8C%ED%98%95)
-            - [String Slicing (문자열 슬라이싱)](#string-slicing-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1)
-            - [if, elif, else (조건문)](#if-elif-else-%EC%A1%B0%EA%B1%B4%EB%AC%B8)
-            - [for, while (반복문)](#for-while-%EB%B0%98%EB%B3%B5%EB%AC%B8)
-            - [List (리스트 자료형)](#list-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%ED%98%95)
-                - [List 내장 함수들!](#list-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98%EB%93%A4)
-        - [기타 자료형](#%EA%B8%B0%ED%83%80-%EC%9E%90%EB%A3%8C%ED%98%95)
-        - [자료형 변환](#%EC%9E%90%EB%A3%8C%ED%98%95-%EB%B3%80%ED%99%98)
-    - [라즈베리 파이를 통한 파이썬 실습](#%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC-%ED%8C%8C%EC%9D%B4%EB%A5%BC-%ED%86%B5%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8B%A4%EC%8A%B5)
-        - [문제](#%EB%AC%B8%EC%A0%9C)
-        - [[프로젝트] LED 구름 만들기 (1)](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-led-%EA%B5%AC%EB%A6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
-            - [기능](#%EA%B8%B0%EB%8A%A5)
-            - [준비물 (4인 1조)](#%EC%A4%80%EB%B9%84%EB%AC%BC-4%EC%9D%B8-1%EC%A1%B0)
-            - [참여 인원](#%EC%B0%B8%EC%97%AC-%EC%9D%B8%EC%9B%90)
-            - [참고 영상](#%EC%B0%B8%EA%B3%A0-%EC%98%81%EC%83%81)
-            - [실습 방법](#%EC%8B%A4%EC%8A%B5-%EB%B0%A9%EB%B2%95)
-            - [유의](#%EC%9C%A0%EC%9D%98)
-            - [향후 발전 방향](#%ED%96%A5%ED%9B%84-%EB%B0%9C%EC%A0%84-%EB%B0%A9%ED%96%A5)
-            - [예상 시간](#%EC%98%88%EC%83%81-%EC%8B%9C%EA%B0%84)
-        - [[예제] 삼거리 교차로 신호등 만들기](#%EC%98%88%EC%A0%9C-%EC%82%BC%EA%B1%B0%EB%A6%AC-%EA%B5%90%EC%B0%A8%EB%A1%9C-%EC%8B%A0%ED%98%B8%EB%93%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-            - [문제](#%EB%AC%B8%EC%A0%9C)
-            - [해설](#%ED%95%B4%EC%84%A4)
-        - [[예제] 7-세그먼트를 이용한 숫자 표현하기](#%EC%98%88%EC%A0%9C-7-%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%88%AB%EC%9E%90-%ED%91%9C%ED%98%84%ED%95%98%EA%B8%B0)
+  - [목차](#%EB%AA%A9%EC%B0%A8)
+  - [(홍보) 부트사차원 웹앱을 통한 프로젝트 생성](#%ED%99%8D%EB%B3%B4-%EB%B6%80%ED%8A%B8%EC%82%AC%EC%B0%A8%EC%9B%90-%EC%9B%B9%EC%95%B1%EC%9D%84-%ED%86%B5%ED%95%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
+  - [(홍보) 1월 오픈 워크샵 [ 클라우드를 통한 효율적인 IoT 연동과 데이터 수집하기 ]](#%ED%99%8D%EB%B3%B4-1%EC%9B%94-%EC%98%A4%ED%94%88-%EC%9B%8C%ED%81%AC%EC%83%B5-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EB%A5%BC-%ED%86%B5%ED%95%9C-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8-iot-%EC%97%B0%EB%8F%99%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0)
+  - [프로젝트 진행방향 소개](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89%EB%B0%A9%ED%96%A5-%EC%86%8C%EA%B0%9C)
+    - [스터디성 프로젝트에 관한 정보](#%EC%8A%A4%ED%84%B0%EB%94%94%EC%84%B1-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
+    - [작품제작에 관한 정보](#%EC%9E%91%ED%92%88%EC%A0%9C%EC%9E%91%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
+    - [세미나/수업에 관한 정보](#%EC%84%B8%EB%AF%B8%EB%82%98%EC%88%98%EC%97%85%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%B3%B4)
+    - [스터디 스타일](#%EC%8A%A4%ED%84%B0%EB%94%94-%EC%8A%A4%ED%83%80%EC%9D%BC)
+    - [예습 / 복습](#%EC%98%88%EC%8A%B5-%EB%B3%B5%EC%8A%B5)
+    - [스터디 인원 확정 및 부원 가입](#%EC%8A%A4%ED%84%B0%EB%94%94-%EC%9D%B8%EC%9B%90-%ED%99%95%EC%A0%95-%EB%B0%8F-%EB%B6%80%EC%9B%90-%EA%B0%80%EC%9E%85)
+  - [파이썬 기초](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88)
+    - [튜터가 프로그래밍을 공부하는 방법](#%ED%8A%9C%ED%84%B0%EA%B0%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+    - [파이썬 철학](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%B2%A0%ED%95%99)
+      - [파이썬의 선 (The Zen of Python)](#%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98-%EC%84%A0-the-zen-of-python)
+      - [다른 언어 철학: 자바](#%EB%8B%A4%EB%A5%B8-%EC%96%B8%EC%96%B4-%EC%B2%A0%ED%95%99-%EC%9E%90%EB%B0%94)
+    - [헬로 월드 출력해보기](#%ED%97%AC%EB%A1%9C-%EC%9B%94%EB%93%9C-%EC%B6%9C%EB%A0%A5%ED%95%B4%EB%B3%B4%EA%B8%B0)
+      - [Python 설치](#python-%EC%84%A4%EC%B9%98)
+      - [파이썬, C 언어 헬로월드 비교](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-c-%EC%96%B8%EC%96%B4-%ED%97%AC%EB%A1%9C%EC%9B%94%EB%93%9C-%EB%B9%84%EA%B5%90)
+    - [파이썬의 간략한 특징](#%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98-%EA%B0%84%EB%9E%B5%ED%95%9C-%ED%8A%B9%EC%A7%95)
+    - [좋은 이름을 짓는 방법](#%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A6%84%EC%9D%84-%EC%A7%93%EB%8A%94-%EB%B0%A9%EB%B2%95)
+    - [파이썬 좀더 알아보기](#%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A2%80%EB%8D%94-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
+      - [Number (숫자 자료형)](#number-%EC%88%AB%EC%9E%90-%EC%9E%90%EB%A3%8C%ED%98%95)
+      - [String (문자열 자료형)](#string-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%9E%90%EB%A3%8C%ED%98%95)
+      - [String Slicing (문자열 슬라이싱)](#string-slicing-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1)
+      - [if, elif, else (조건문)](#if-elif-else-%EC%A1%B0%EA%B1%B4%EB%AC%B8)
+      - [for, while (반복문)](#for-while-%EB%B0%98%EB%B3%B5%EB%AC%B8)
+      - [List (리스트 자료형)](#list-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%A3%8C%ED%98%95)
+        - [List 내장 함수들!](#list-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98%EB%93%A4)
+    - [기타 자료형](#%EA%B8%B0%ED%83%80-%EC%9E%90%EB%A3%8C%ED%98%95)
+    - [자료형 변환](#%EC%9E%90%EB%A3%8C%ED%98%95-%EB%B3%80%ED%99%98)
+  - [라즈베리 파이를 통한 파이썬 실습](#%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC-%ED%8C%8C%EC%9D%B4%EB%A5%BC-%ED%86%B5%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8B%A4%EC%8A%B5)
+    - [문제](#%EB%AC%B8%EC%A0%9C)
+    - [[프로젝트] LED 구름 만들기 (1)](#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-led-%EA%B5%AC%EB%A6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
+      - [기능](#%EA%B8%B0%EB%8A%A5)
+      - [준비물 (4인 1조)](#%EC%A4%80%EB%B9%84%EB%AC%BC-4%EC%9D%B8-1%EC%A1%B0)
+      - [참여 인원](#%EC%B0%B8%EC%97%AC-%EC%9D%B8%EC%9B%90)
+      - [참고 영상](#%EC%B0%B8%EA%B3%A0-%EC%98%81%EC%83%81)
+      - [실습 방법](#%EC%8B%A4%EC%8A%B5-%EB%B0%A9%EB%B2%95)
+      - [유의](#%EC%9C%A0%EC%9D%98)
+      - [향후 발전 방향](#%ED%96%A5%ED%9B%84-%EB%B0%9C%EC%A0%84-%EB%B0%A9%ED%96%A5)
+      - [예상 시간](#%EC%98%88%EC%83%81-%EC%8B%9C%EA%B0%84)
+    - [[예제] 삼거리 교차로 신호등 만들기](#%EC%98%88%EC%A0%9C-%EC%82%BC%EA%B1%B0%EB%A6%AC-%EA%B5%90%EC%B0%A8%EB%A1%9C-%EC%8B%A0%ED%98%B8%EB%93%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+      - [문제](#%EB%AC%B8%EC%A0%9C)
+      - [해설](#%ED%95%B4%EC%84%A4)
+    - [[예제] 7-세그먼트를 이용한 숫자 표현하기](#%EC%98%88%EC%A0%9C-7-%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%88%AB%EC%9E%90-%ED%91%9C%ED%98%84%ED%95%98%EA%B8%B0)
 
 ## (홍보) 부트사차원 웹앱을 통한 프로젝트 생성
 
@@ -63,6 +64,10 @@
   2. 필요한 예산을 사이트 내에서 지원 요청하고 받을 수 있습니다.
   3. 부트사차원 회원 누구나 진행된 모든 프로젝트를 열람할 수 있습니다.
   4. 향후 개인이 참여한 프로젝트를 토대로 개인 포트폴리오를 소프트 카피 형식으로 받아볼 수 있습니다.
+
+## (홍보) 1월 오픈 워크샵 [ 클라우드를 통한 효율적인 IoT 연동과 데이터 수집하기 ]
+
+- 이메일 참고
 
 ## 프로젝트 진행방향 소개
 
