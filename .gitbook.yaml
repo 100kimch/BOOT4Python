@@ -1,8 +1,5 @@
 root: ./guides/
 
 structure:
-  readme: ./README.md
-  summary: ./SUMMARY.md
-
-redirects:
-  previous/
+  readme: ./guides/README.md
+  summary: ./guides/SUMMARY.md
