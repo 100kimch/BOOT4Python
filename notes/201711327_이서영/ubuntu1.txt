@@ -1,0 +1,38 @@
+ #복습노트 2019/01/14
+ 
+  Bash
+  GUI(Graphic User Interface) vs CUI(Character User Interface)
+  
+  - PC 초기 OS 인터페이스 CUI
+  - GUI PC의 모습
+
+ Operating System(운영체제)
+  - Windows Microsoft : cmd(MS-DOS)
+  - UNIX 기반 운영체제(Android,Unix,macOS,iOS)
+    오픈소스
+    Linux Bash, 터미널
+
+Bash
+   cd
+   mkdir
+   ls
+   rm
+   mv
+   nano <filename>: 내용이 있는 파일을 만들어줌
+   touch <filename>: 파일을 생성하지만 내용이 없음
+   pwd: 현재 경로 표시
+
+Project 개발방법론
+
+Python
+1.숫자 자료형(number)
+2.문자열 자료형
+3.리스트 자료형 변경 가능
+4.튜플 자료형 arr=(1,2,3,4,5)  변경 불가.
+5.딕셔너리 자료형 key-value 형태로 이루어짐
+   dic2 = {'k1':'v1','k2':'v2','k3':'v3'}
+   print(dic2['k2']) => v2
+6.집합 자료형
+
+
+ 
