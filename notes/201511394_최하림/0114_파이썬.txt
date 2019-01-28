@@ -1,0 +1,120 @@
+Bash 
+
+GUI CUI 
+
+PC 초기의 OS의 인터페이스:
+	CUI
+GUI는 우리가 흔히 생각하는 PC
+
+gui에서 실행할 수 없는 프로그래밍들이 많음;;
+
+cui인터페이스를 배워야함 
+
+OS(운영체제)
+
+choih@DESKTOP-9F48C71 MINGW64 ~
+$ cd /c
+
+choih@DESKTOP-9F48C71 MINGW64 /c
+$ cd ./useres
+bash: cd: ./useres: No such file or directory
+
+choih@DESKTOP-9F48C71 MINGW64 /c
+$ cd ./users
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users
+$ ls
+'All Users'@   Default/         Default.migrated/   Public/
+ choih/       'Default User'@   desktop.ini
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users
+$ cd ./choih/Desktop
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop
+$ ls
+ Atom.lnk*
+ desktop.ini
+ Dev-C++.lnk*
+'eclipse - 바로 가기.lnk'*
+ Internet.lnk*
+ KakaoTalk_Moim_4MEmQCNrXc0IhZrEMDHl4CescGF5Ie.jpg
+ KMPlayer.lnk*
+'Microsoft Edge.lnk'*
+ QtSpim.lnk*
+ sai.lnk*
+ sai_tool/
+'Visual Studio Code.lnk'*
+'VS Express 2013 for Desktop.lnk'*
+ web/
+ Wireshark.lnk*
+ 고1영어/
+ 고클린.lnk*
+ 그림판.lnk*
+ 동방비번.txt
+ 동아리/
+ 랜프ch13레포트_최하림.pdf
+'베들레헴 성경'/
+ 부트파이썬.md
+ 악보철야/
+ 엑셀/
+ 음악/
+ 잡/
+'전 기 전 자 기 초 실 험 2 실 험 사 양 서 모 음 3.hwp'
+ 전자공/
+ 전자회로-레포트3_최하림.pdf
+'청년부 크리스마스.hwp'
+'캡처 도구.lnk'*
+ 컴활필기/
+ 컴활필기1급접수증.pdf
+ 파이.txt
+ 한눈에보는성경,부르스윌킨슨,디모데.pdf
+ 홋카이도.hwp
+ 후쿠오카.hwp
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop
+$ git init
+Initialized empty Git repository in C:/Users/choih/Desktop/.git/
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git clone http:..github.com/harimong/swpython.git
+Cloning into 'swpython'...
+ssh: Could not resolve hostname http: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git add 부트파이썬.md
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'choih@DESKTOP-9F48C71.(none)')
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git config "choiharim7@naver.com"
+error: invalid key: choiharim7@naver.com
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git config -global user.email "choiharim7@naver.com"
+error: did you mean `--global` (with two dashes ?)
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git config --global user.email "choiharim7@naver.com"
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$ git config --global user.name "HARIM"
+
+choih@DESKTOP-9F48C71 MINGW64 /c/users/choih/Desktop (master)
+$
